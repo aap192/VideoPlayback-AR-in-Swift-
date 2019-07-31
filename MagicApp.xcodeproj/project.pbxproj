@@ -13,6 +13,7 @@
 		38F552EF22F205FB0077FA08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F552ED22F205FB0077FA08 /* Main.storyboard */; };
 		38F552F122F205FC0077FA08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F552F022F205FC0077FA08 /* Assets.xcassets */; };
 		38F552F422F205FC0077FA08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F552F222F205FC0077FA08 /* LaunchScreen.storyboard */; };
+		38F552FC22F206380077FA08 /* HarryPotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38F552FB22F206380077FA08 /* HarryPotter.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		38F552F022F205FC0077FA08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38F552F322F205FC0077FA08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38F552F522F205FC0077FA08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38F552FB22F206380077FA08 /* HarryPotter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarryPotter.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		38F552E622F205FB0077FA08 /* MagicApp */ = {
 			isa = PBXGroup;
 			children = (
+				38F552FB22F206380077FA08 /* HarryPotter.mp4 */,
 				38F552E722F205FB0077FA08 /* AppDelegate.swift */,
 				38F552E922F205FB0077FA08 /* art.scnassets */,
 				38F552EB22F205FB0077FA08 /* ViewController.swift */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38F552EA22F205FB0077FA08 /* art.scnassets in Resources */,
+				38F552FC22F206380077FA08 /* HarryPotter.mp4 in Resources */,
 				38F552F422F205FC0077FA08 /* LaunchScreen.storyboard in Resources */,
 				38F552F122F205FC0077FA08 /* Assets.xcassets in Resources */,
 				38F552EF22F205FB0077FA08 /* Main.storyboard in Resources */,
@@ -293,10 +297,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.appbuilder.MagicApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AkashPawar.MagicApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -311,10 +315,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.appbuilder.MagicApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AkashPawar.MagicApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
