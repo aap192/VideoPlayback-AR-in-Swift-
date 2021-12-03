@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  MagicApp
-//
-//  Created by Akash Pawar on 7/31/19.
-//  Copyright © 2019 Akash Pawar. All rights reserved.
-//
-
 import UIKit
 import SceneKit
 import ARKit
@@ -82,8 +74,4 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         }
     return node  
     }
-    
-
-
-    
 }
